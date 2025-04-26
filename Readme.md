@@ -14,4 +14,4 @@ This is a simple portfolio website built with HTML and CSS.
 - Open `index.html` in your browser.
 
 ## Author
-- [Your Name]
+- Aasritha
