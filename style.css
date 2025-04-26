@@ -1,41 +1,111 @@
-body {
-  font-family: Arial, sans-serif;
+/* Basic Reset */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #4a90e2;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+section#about {
+  background: #ffffff;
+}
+
+section#skills {
+  background: #e9f7ef;
+}
+
+section#projects {
+  background: #fdf2e9;
+}
+
+section#contact {
+  background: #ffffff;
+}
+
+/* Skills List */
+ul {
+  list-style-type: none;
   padding: 0;
 }
 
-header {
-  background-color: #333;
+ul li {
+  background: #4a90e2;
   color: white;
-  padding: 1rem;
-  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
 }
 
-nav a {
-  color: white;
-  margin: 0 10px;
-  text-decoration: none;
+/* Projects */
+.project {
+  background: #fff3cd;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 10px;
 }
 
-section {
-  padding: 2rem;
-}
-
+/* Form */
 form input, form textarea {
-  width: 100%;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
-button {
-  padding: 0.5rem 1rem;
-  background-color: #333;
+form button {
+  background: #4a90e2;
   color: white;
   border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s;
 }
 
+form button:hover {
+  background: #357ab8;
+}
+
+/* Footer */
 footer {
-  background-color: #f1f1f1;
+  background: #4a90e2;
+  color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 10px 0;
+  margin-top: 20px;
 }
